@@ -79,11 +79,11 @@ describe('Testando o CardList', () => {
     const cards = screen.getAllByRole('heading', { level: 3 });
     expect(cards).toHaveLength(2);
 
-    const morty = screen.getByText(nomePersonagens[0]);
-    expect(morty).toBeInTheDocument();
+    const rick = screen.getByText(nomePersonagens[0]);
+    expect(rick).toBeInTheDocument();
 
-    const summer = screen.getByText(nomePersonagens[1]);
-    expect(summer).toBeInTheDocument();
+    const morty = screen.getByText(nomePersonagens[1]);
+    expect(morty).toBeInTheDocument();
   });
 
   test('Testar se ao enviar abcdef via prop filterName, aparece nenhum encontrado', () => {
