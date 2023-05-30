@@ -7,4 +7,4 @@
 <p>Ao clonar o projeto, para instalar as dependências: <code>npm install</code></p>
 <p>E para executar no navegador: <code>npm start</code></p>
 <p>E para rodar os testes no vscode: <code>npm test</code></p>
-<p>E para rodar o teste individualmente no vscode: <code>npm test <nome-arquivo-teste></code></p>
+<p>E para rodar o teste individualmente no vscode: <code>npm test nome-arquivo-teste</code></p>
