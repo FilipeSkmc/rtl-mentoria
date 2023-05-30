@@ -46,7 +46,7 @@ describe('Testando o CardList', () => {
     expect(notFound).toBeInTheDocument();
   });
 
-  test('Testar se ao enviar smith via prop filterName aparece 4 cards com nomes contento smith', () => {
+  test('Testar se ao enviar smith via prop filterName aparece 4 cards com nomes contendo smith', () => {
     render(<CardList
       data={ PERSONAGENS }
       filterName="smith"
@@ -69,7 +69,7 @@ describe('Testando o CardList', () => {
     expect(jerry).toBeInTheDocument();
   });
 
-  test('Testar se ao enviar citadel via prop filterLocation aparece 2 cards com nomes contento citadel', () => {
+  test('Testar se ao enviar citadel via prop filterLocation aparece 2 cards com nomes contendo citadel', () => {
     render(<CardList
       data={ PERSONAGENS }
       filterName=""
