@@ -1,0 +1,16 @@
+.filters {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+.filters input, h2{
+  width: 10vw;
+  margin: 0 1rem;
+}
